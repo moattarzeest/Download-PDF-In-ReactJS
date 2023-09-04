@@ -35,8 +35,10 @@ function PdfDownloader() {
   };
 
   return (
-    <div>
-      <button onClick={handleDownload}>Download PDF</button>
+    <div className="myApp">
+      <h1>Learn how to download PDF on button click</h1>
+      <h3>Click the button below</h3>
+      <button onClick={handleDownload} className="downloadButton">Download PDF</button>
     </div>
   );
 }
