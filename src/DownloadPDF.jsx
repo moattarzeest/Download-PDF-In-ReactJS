@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 
 export default function DownloadPDF()
 {
-    const pdfUrl = "https://arxiv.org/pdf/1308.4675.pdf";
+    //We must create constant functions (components) inside default function
+const pdfUrl = "https://arxiv.org/pdf/1308.4675.pdf";
 const [pdfBlob, setPdfBlob] = useState(null);
 
   useEffect(() => {
